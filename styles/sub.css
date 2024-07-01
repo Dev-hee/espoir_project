@@ -1,0 +1,102 @@
+html,body {width:100vw; overflow-x:hidden;}
+/*header*/
+#header {
+    font-family:'Noto Sans KR',sans-serif;
+    width: 100vw;
+    display: flex;
+    justify-content:space-between;
+    margin:0 auto;
+    padding:5px 20px;
+}
+#header h1{}
+#header h1 a{}
+#header h1 a img{width: 100%;}
+#header .gnb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute; width:100%;
+    left:0; top:15px;}
+#header .gnb ul{
+    display: flex;
+    justify-content:center;}
+#header .gnb ul li{
+    margin-right:50px;
+    position:relative;}
+#header .snb{}
+#header .snb ul{display:flex;}
+#header .snb ul li{
+    align-content: center;
+    margin-right:10px;
+    position:relative;
+    display:block;
+    justify-items: center;}
+
+
+
+.main {}
+.main .top_bg{}
+
+
+
+
+
+
+
+.shop_topArea
+{max-width: 1700px;
+min-height: 900px;
+padding: 0 10px;
+margin: 0 auto;
+position: relative;}
+
+
+
+/*ask*/
+.ask {
+    padding: 40px 40px 0;
+    background-color:#000000;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.ask ul{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;}
+.ask ul li{
+    font-weight:700;
+    display: flex; 
+    align-items: center;
+    justify-content:center;
+    margin: 20px;
+    width:150px; height: 150px;
+    background-color: #ffffff;}
+.ask ul li img{}
+.ask ul li img p{}   
+/*footer*/
+.foot_bottom{
+    padding: 40px 40px 0;
+    background-color: black; font-size: 1rem;
+    width: 100%; position: relative;
+    color: #9f9f9f;
+}
+.foot_bottom ul{
+    display: flex;
+    float: left;
+    font-size: 0.75rem; color:#fff; 
+}
+.foot_bottom ul li{
+    margin-right:10px;
+    display: flex;
+    justify-content: center;
+}
+.foot_bottom ul li em{font-weight:700; color: #9f9f9f;}
+.foot_bottom .address{margin-top:40px; color: #9f9f9f;}
+.foot_bottom .address p{
+    color: #9f9f9f;
+    margin-top:10px;
+    align-content: left;
+    font-size: 0.688rem;
+    line-height:2;}
+.foot_bottom .address p .copyright{color: #9f9f9f; margin-top:27px;}
